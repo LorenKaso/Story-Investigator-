@@ -1,0 +1,278 @@
+2026-02-16 00:31:18.0229 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:31:45.0081 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/text-embedding-3-large: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 1.3044450283050537,
+  "compute_duration_per_response_seconds": 1.3044450283050537,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 1,
+  "prompt_tokens": 11,
+  "total_tokens": 11,
+  "tokens_per_response": 11.0,
+  "cost_per_response": 0.0
+}
+2026-02-16 00:31:45.0081 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4o-mini: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 1,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-02-16 00:32:03.0905 - WARNING - graphrag.query.llm.text_utils - Error decoding faulty json, attempting repair
+2026-02-16 00:32:03.0905 - ERROR - graphrag.query.llm.text_utils - not expected dict type. type=<class 'str'>:
+Traceback (most recent call last):
+  File "C:\yearFproject\AdvancedSystems\Assignment3\Story_Investigator\.venv\Lib\site-packages\graphrag\query\llm\text_utils.py", line 84, in try_parse_json_object
+    result = json.loads(input)
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-02-16 00:32:34.0296 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4o-mini: {
+  "attempted_request_count": 3,
+  "successful_response_count": 3,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 27.537559509277344,
+  "compute_duration_per_response_seconds": 13.768779754638672,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 1,
+  "responses_with_tokens": 2,
+  "prompt_tokens": 19412,
+  "completion_tokens": 533,
+  "total_tokens": 19945,
+  "tokens_per_response": 9972.5,
+  "cost_per_response": 0.0
+}
+2026-02-16 00:33:21.0825 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:22.0155 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:22.0482 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:22.0811 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:23.0139 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:23.0444 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:23.0762 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:24.0067 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:24.0330 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:24.0604 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:24.0892 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:25.0229 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:25.0551 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:26.0196 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:26.0680 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:26.0981 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:27.0298 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:27.0608 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:27.0955 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:33:28.0271 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:11.0640 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:11.0950 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:12.0270 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:12.0624 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:12.0993 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:13.0311 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:13.0633 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:13.0960 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:14.0325 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:14.0645 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:14.0965 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:15.0340 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:15.0698 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:16.0017 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:16.0393 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:16.0733 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:17.0091 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:17.0533 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:17.0858 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:18.0241 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:56.0312 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:56.0630 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:56.0926 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:57.0268 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:57.0561 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:57.0850 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:58.0138 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:58.0583 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:59.0004 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:59.0361 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:34:59.0694 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:35:00.0030 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:35:00.0344 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:35:00.0685 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:35:01.0009 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:35:01.0335 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:35:01.0722 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:35:02.0089 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:35:02.0400 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:35:02.0751 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:35:12.0747 - WARNING - graphrag.query.structured_search.drift_search.action - No follow-up actions found for response: {}
+2026-02-16 00:35:46.0119 - WARNING - graphrag.query.structured_search.drift_search.action - No follow-up actions found for response: {}
+2026-02-16 00:35:50.0603 - WARNING - graphrag.query.structured_search.drift_search.action - No answer found for query: How often are safety drills conducted on ferries?
+2026-02-16 00:35:50.0603 - WARNING - graphrag.query.structured_search.drift_search.action - No follow-up actions found for response: {}
+2026-02-16 00:36:39.0419 - WARNING - graphrag.query.structured_search.drift_search.state - No follow-up actions for action: What are the costs associated with implementing these technologies in investigations?
+2026-02-16 00:36:39.0420 - WARNING - graphrag.query.structured_search.drift_search.state - No follow-up actions for action: How often are safety drills conducted on ferries?
+2026-02-16 00:36:39.0420 - WARNING - graphrag.query.structured_search.drift_search.state - No follow-up actions for action: What are the broader implications for the financial industry based on this case?
+2026-02-16 00:37:03.0854 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/text-embedding-3-large: {
+  "attempted_request_count": 61,
+  "successful_response_count": 61,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 18.89565396308899,
+  "compute_duration_per_response_seconds": 0.3097648190670326,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 61,
+  "prompt_tokens": 1261,
+  "total_tokens": 1261,
+  "tokens_per_response": 20.672131147540984,
+  "cost_per_response": 0.0
+}
+2026-02-16 00:37:03.0855 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4o-mini: {
+  "attempted_request_count": 67,
+  "successful_response_count": 67,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 3,
+  "retries": 8,
+  "retry_rate": 0.10666666666666667,
+  "compute_duration_seconds": 76.84977173805237,
+  "compute_duration_per_response_seconds": 12.808295289675394,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 61,
+  "responses_with_tokens": 6,
+  "prompt_tokens": 17083,
+  "completion_tokens": 2852,
+  "total_tokens": 19935,
+  "tokens_per_response": 3322.5,
+  "cost_per_response": 0.0
+}
+2026-02-16 00:47:57.0470 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:48:20.0241 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/text-embedding-3-large: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 1.3404970169067383,
+  "compute_duration_per_response_seconds": 1.3404970169067383,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 1,
+  "prompt_tokens": 11,
+  "total_tokens": 11,
+  "tokens_per_response": 11.0,
+  "cost_per_response": 0.0
+}
+2026-02-16 00:48:20.0241 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4o-mini: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 1,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-02-16 00:49:04.0476 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4o-mini: {
+  "attempted_request_count": 3,
+  "successful_response_count": 3,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 32.48462104797363,
+  "compute_duration_per_response_seconds": 16.242310523986816,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 1,
+  "responses_with_tokens": 2,
+  "prompt_tokens": 19412,
+  "completion_tokens": 905,
+  "total_tokens": 20317,
+  "tokens_per_response": 10158.5,
+  "cost_per_response": 0.0
+}
+2026-02-16 00:54:58.0496 - WARNING - graphrag.query.structured_search.local_search.mixed_context - Reached token limit - reverting to previous context state
+2026-02-16 00:55:10.0894 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/text-embedding-3-large: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 1.3475379943847656,
+  "compute_duration_per_response_seconds": 1.3475379943847656,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 1,
+  "prompt_tokens": 11,
+  "total_tokens": 11,
+  "tokens_per_response": 11.0,
+  "cost_per_response": 0.0
+}
+2026-02-16 00:55:10.0895 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4o-mini: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 1,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-02-16 00:56:10.0271 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4o-mini: {
+  "attempted_request_count": 3,
+  "successful_response_count": 3,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 22.017715454101562,
+  "compute_duration_per_response_seconds": 11.008857727050781,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 1,
+  "responses_with_tokens": 2,
+  "prompt_tokens": 19412,
+  "completion_tokens": 1002,
+  "total_tokens": 20414,
+  "tokens_per_response": 10207.0,
+  "cost_per_response": 0.0
+}
