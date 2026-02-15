@@ -3,8 +3,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from engines import ms_graphrag_rag, naive_rag, nano_graphrag_rag
-
+from src.engines import ms_graphrag_rag, naive_rag, nano_graphrag_rag
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="AI Investigator CLI")
