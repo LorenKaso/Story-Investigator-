@@ -1,0 +1,15 @@
+<story>
+  <title>The Missing Ledger</title>
+  <setting>Port Argent, 1927</setting>
+  <characters>
+    <character name="Mara Finch" role="archivist" />
+    <character name="Inspector Hale" role="detective" />
+    <character name="Jonas Pike" role="dock foreman" />
+  </characters>
+  <events>
+    <event time="08:10">Mara discovers a torn ledger page hidden in the reading room atlas.</event>
+    <event time="09:25">Inspector Hale interviews Jonas at Pier Seven about a midnight shipment.</event>
+    <event time="11:40">A coded telegram arrives mentioning "blue lantern" and "vault key".</event>
+  </events>
+  <mystery>The harbor trust account is missing 40,000 crowns and records were altered overnight.</mystery>
+</story>
